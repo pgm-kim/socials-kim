@@ -5,7 +5,8 @@ body {
   }
 
   h1 {
-    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 5rem;
     font-weight: 700;
     color: #fff;
     text-align: center;
@@ -13,19 +14,55 @@ body {
     padding-top: 3rem;
   }
 
+  p, a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+    padding-top: 0;
+    text-decoration: none;
+    }
+
   .social-item {
     width: 40rem;
-    background-color: #fff;
-    opacity: 0.5;
+    background-color:hsla(100, 100%, 100%, 0.5);
     color: black;
-    height: 5rem;
     margin: auto;
     border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
   }
 
   @media (max-width: 768px) {
-    .social-item {
-      width: 20rem;
-      height: 3.5rem;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 5rem;
     }
+    .social-item {
+      width: 18rem;
+      padding: 0.3rem;
+    }
+    
+    p, a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+    padding-top: 0;
+    text-decoration: none;
+  }
+
+  .icon {
+    width: 20px
+  }
+  }
+
+  
+
+  .icon {
+    padding-left: 1rem;
   }
