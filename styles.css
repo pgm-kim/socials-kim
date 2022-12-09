@@ -35,6 +35,11 @@ body {
     margin-bottom: 1rem;
   }
 
+  .GTA {
+    background-color: #f2bb92;
+    color: black;
+  }
+
   @media (max-width: 768px) {
 
     h1 {
