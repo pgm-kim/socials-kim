@@ -1,7 +1,7 @@
 body {
-    height: 95vh;
     /* background-image: radial-gradient(#f2bb92,#ef9188); */
     background-image: radial-gradient(#45a247,#283c86);
+    margin-bottom: 3rem;
   }
 
   h1 {
